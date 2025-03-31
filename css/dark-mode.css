@@ -1,0 +1,196 @@
+/*--------------------------------------------------------------
+# Dark Mode Stylesheet
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Dark Mode Variables
+--------------------------------------------------------------*/
+.dark-mode {
+    /* Colors */
+    --color-text: #e0e0e0;
+    --color-text-light: #b0b0b0;
+    --color-border: #444444;
+    --color-background: #121212;
+    --color-background-alt: #1e1e1e;
+    --color-white: #121212;
+    --color-black: #ffffff;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.5);
+    --shadow-xl: 0 16px 32px rgba(0, 0, 0, 0.6);
+}
+
+/*--------------------------------------------------------------
+# Dark Mode Elements
+--------------------------------------------------------------*/
+
+/* Toggle Button */
+.dark-mode .theme-toggle .fa-moon {
+    display: none;
+}
+
+.dark-mode .theme-toggle .fa-sun {
+    display: block;
+    color: #ffcc30;
+}
+
+/* Header */
+.dark-mode .header.scrolled {
+    background-color: rgba(18, 18, 18, 0.95);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .logo-link {
+    color: var(--color-text);
+}
+
+.dark-mode .logo-link span {
+    color: var(--color-primary-light);
+}
+
+.dark-mode .nav-link {
+    color: var(--color-text);
+}
+
+.dark-mode .nav-link:hover,
+.dark-mode .nav-link.active {
+    color: var(--color-primary-light);
+}
+
+.dark-mode .mobile-nav-toggle .bar {
+    background-color: var(--color-text);
+}
+
+/* Buttons */
+.dark-mode .btn-outline {
+    border-color: var(--color-primary-light);
+    color: var(--color-primary-light);
+}
+
+.dark-mode .btn-outline:hover {
+    background-color: var(--color-primary-light);
+    color: #121212;
+}
+
+/* Sections */
+.dark-mode .bg-light {
+    background-color: #1a1a1a;
+}
+
+/* Cards & Containers */
+.dark-mode .card-front,
+.dark-mode .card-back,
+.dark-mode .testimonial-content,
+.dark-mode .contact-form,
+.dark-mode .icon-container {
+    background-color: #1e1e1e;
+    box-shadow: var(--shadow-md);
+}
+
+.dark-mode .form-control:not(:placeholder-shown) ~ label,
+.dark-mode .form-control:focus ~ label {
+    background-color: #1e1e1e;
+    color: var(--color-text-light);
+}
+
+.dark-mode .form-control {
+    background-color: #2d2d2d;
+    border-color: #444;
+    color: var(--color-text);
+}
+
+.dark-mode .form-control:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(94, 53, 177, 0.2);
+}
+
+/* Timeline */
+.dark-mode .timeline-wrapper::before {
+    background-color: rgba(94, 53, 177, 0.3);
+}
+
+.dark-mode .timeline-marker {
+    background-color: var(--color-primary);
+    border: 4px solid #1a1a1a;
+    box-shadow: 0 0 0 2px rgba(94, 53, 177, 0.3);
+}
+
+/* Highlights & Icons */
+.dark-mode .highlight-item .icon,
+.dark-mode .contact-icon,
+.dark-mode .timeline-date,
+.dark-mode .tech-tag,
+.dark-mode .social-link {
+    background-color: rgba(94, 53, 177, 0.2);
+}
+
+/* Form Response */
+.dark-mode .form-response-content {
+    background-color: #1e1e1e;
+    color: var(--color-text);
+}
+
+/* Mobile Navigation */
+.dark-mode .nav-mobile {
+    background-color: #121212;
+}
+
+/*--------------------------------------------------------------
+# Dark Mode Transitions
+--------------------------------------------------------------*/
+.header,
+.header.scrolled,
+body,
+.btn,
+.card-front,
+.card-back,
+.testimonial-content,
+.contact-form,
+.form-control,
+.icon-container,
+.highlight-item .icon,
+.contact-icon,
+.timeline-date,
+.tech-tag,
+.social-link,
+.nav-mobile,
+h1, h2, h3, h4, h5, h6,
+p, a, span {
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/*--------------------------------------------------------------
+# Dark Mode Media Queries
+--------------------------------------------------------------*/
+@media (prefers-color-scheme: dark) {
+    body:not(.light-mode) {
+        /* Apply dark mode styles if the system preference is dark
+           and the user hasn't explicitly chosen light mode */
+        --color-text: #e0e0e0;
+        --color-text-light: #b0b0b0;
+        --color-border: #444444;
+        --color-background: #121212;
+        --color-background-alt: #1e1e1e;
+        --color-white: #121212;
+        --color-black: #ffffff;
+
+        --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+        --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.4);
+        --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.5);
+        --shadow-xl: 0 16px 32px rgba(0, 0, 0, 0.6);
+    }
+
+    body:not(.light-mode) .theme-toggle .fa-moon {
+        display: none;
+    }
+
+    body:not(.light-mode) .theme-toggle .fa-sun {
+        display: block;
+        color: #ffcc30;
+    }
+}

@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilabh Yadav | Profile</title>
+    <meta name="description" content="Portfolio of Nilabh, Full Stack Developer specializing in creating beautiful and functional web experiences">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <a href="#home" class="logo-link">Nilabh<span>Yadav</span></a>
+            </div>
+
+            <nav class="header__nav">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+
+                <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero__background">
+                <div class="overlay"></div>
+            </div>
+
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1 class="hero__title">
+                            <span class="greeting">Hello, I'm</span>
+                            <span class="name">Nilabh Yadav</span>
+                        </h1>
+                        <h2 class="hero__subtitle">Full Stack Developer</h2>
+                        <p class="hero__description">
+                            I craft elegant solutions with code, transforming ideas into powerful digital experiences.
+                        </p>
+                        <div class="hero__cta">
+                            <a href="#projects" class="btn btn-primary">View My Work</a>
+                            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                        </div>
+                    </div>
+
+                    <div class="hero__image">
+                        <div class="profile-image">
+                            <img src="assets/working.jpg" alt="Nilabh yadav" class="lazy-load">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="scroll-indicator">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div class="scroll-text">Scroll Down</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get to know me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about__content">
+                    <div class="about__image reveal-element">
+                        <img src="assets/working.jpg" alt="Nilabh Yadav" class="lazy-load">
+                        <div class="experience-badge">
+                            <span class="number">3+</span>
+                            <span class="text">Years of Experience</span>
+                        </div>
+                    </div>
+
+                    <div class="about__text reveal-element">
+                        <h3 class="about__heading">Passionate Full Stack Developer with a love for clean code and innovative solutions</h3>
+
+                        <p class="about__paragraph">
+                            I'm a dedicated Full Stack Developer with expertise in building responsive web applications and dynamic user experiences. With over 5 years of professional experience, I combine technical skills with creative problem-solving to deliver high-quality projects that exceed expectations.
+                        </p>
+
+
+                        <div class="about__highlights">
+                            <div class="highlight-item">
+                                <div class="icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>Clean Code</h4>
+                                    <p>Writing maintainable, efficient, and well-documented code is my priority.</p>
+                                </div>
+                            </div>
+
+                            <div class="highlight-item">
+                                <div class="icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>Responsive Design</h4>
+                                    <p>Creating seamless experiences across all devices and screen sizes.</p>
+                                </div>
+                            </div>
+
+                            <div class="highlight-item">
+                                <div class="icon">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>Performance Optimization</h4>
+                                    <p>Ensuring applications run smoothly and load quickly.</p>
+                                </div>
+                            </div>
+
+                            <div class="highlight-item">
+                                <div class="icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>User-Centered Approach</h4>
+                                    <p>Focusing on creating intuitive and accessible user experiences.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about__cta">
+                            <a href="assets/resume.pdf" class="btn btn-primary" target="_blank">
+                                <i class="fas fa-download"></i> Download CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">What I'm good at</span>
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="skills__content">
+                    <div class="skills__text reveal-element">
+                        <h3 class="skills__heading">Technical Expertise</h3>
+                        <p class="skills__paragraph">
+                            I specialize in full-stack development with expertise in modern frameworks and technologies. My approach combines technical knowledge with creative problem-solving to build scalable and efficient applications.
+                        </p>
+
+                        <div class="skill-progressbars">
+                            <div class="skill-progress">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="95%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-progress">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">100%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="90%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-progress">
+                                <div class="skill-info">
+                                    <span class="skill-name">C++ for Arduino</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="85%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-progress">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML & CSS</span>
+                                    <span class="skill-percentage">92%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="92%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-progress">
+                                <div class="skill-info">
+                                    <span class="skill-name">AI prompt writing</span>
+                                    <span class="skill-percentage">100%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__icons reveal-element">
+                        <h3 class="skills__heading">Technologies I Work With</h3>
+
+                        <div class="skill-icons-grid">
+                            <div class="skill-icon">
+                                <div class="icon-container">
+                                    <img src="assets/JAVA.png" alt="JavaScript" class="lazy-load">
+                                </div>
+                                <span class="icon-name">JavaScript</span>
+                            </div>
+
+                            <div class="skill-icon">
+                                <div class="icon-container">
+                                    <img src="assets/logo.png" alt="Python" class="lazy-load">
+                                </div>
+                                <span class="icon-name">Python</span>
+                            </div>
+
+                            <div class="skill-icon">
+                                <div class="icon-container">
+                                    <img src="assets/c++.png" alt="C++" class="lazy-load">
+                                </div>
+                                <span class="icon-name">C++</span>
+                            </div>
+
+                            <div class="skill-icon">
+                                <div class="icon-container">
+                                    <img src="assets/arduino.jpg" alt="Arduino" class="lazy-load">
+                                </div>
+                                <span class="icon-name">Arduino</span>
+                            </div>
+
+                            <div class="skill-icon">
+                                <div class="icon-container">
+                                    <img src="assets/ChatGPT-Logo.png" alt="chatgpt" class="lazy-load">
+                                </div>
+                                <span class="icon-name">ChatGPT</span>
+                            </div>
+
+                            <div class="skill-icon">
+                                <div class="icon-container">
+                                    <img src="assets/claude.jpg" alt="Claude AI" class="lazy-load">
+                                </div>
+                                <span class="icon-name">Claude AI</span>
+                            </div>
+
+                            <div class="skill-icon">
+                                <div class="icon-container">
+                                    <img src="assets/Html.png" alt="Html" class="lazy-load">
+                                </div>
+                                <span class="icon-name">HTML</span>
+                            </div>
+
+                            <div class="skill-icon">
+                                <div class="icon-container">
+                                    <img src="assets/VS.png" alt="VS code" class="lazy-load">
+                                </div>
+                                <span class="icon-name">VS code</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      <!-- Timeline Section -->
+        <section class="timeline section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">My journey</span>
+                    <h2 class="section-title">Experience & Education</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="timeline__content">
+                    <div class="timeline-wrapper">
+                        <div class="timeline-item reveal-element">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>2021 - Present</span>
+                                </div>
+                                <h3 class="timeline-title">Robotics</h3>
+                                <h4 class="timeline-subtitle">@ ATL lab</h4>
+                                <p class="timeline-description">
+                                    Joined the ATL Lab and started exploring robotics in school from 8th grade. Gained hands-on experience with robotics projects, focusing on both hardware and programming aspects.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item reveal-element">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>2019 - 2021</span>
+                                </div>
+                                <h3 class="timeline-title">Frontend</h3>
+                                <h4 class="timeline-subtitle">Learning Html</h4>
+                                <p class="timeline-description">
+                                    Exposed to HTML in school, which sparked my interest in web development. Learned HTML in-depth and applied my skills to create frontend projects, focusing on design and user experience.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item reveal-element">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>2017 - 2019</span>
+                                </div>
+                                <h3 class="timeline-title">Backend</h3>
+                                <h4 class="timeline-subtitle">Learning python</h4>
+                                <p class="timeline-description">
+                                    Learned Python on a desktop environment, building foundational programming skills. Applied knowledge through various projects, enhancing problem-solving and coding abilities.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item reveal-element">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>2015 - 2017</span>
+                                </div>
+                                <h3 class="timeline-title">Starting to learn</h3>
+                                <h4 class="timeline-subtitle">Working with Raspberry pi(3b+)</h4>
+                                <p class="timeline-description">
+                                    Started working with a Raspberry Pi, initially using it as an operating system. Inspired by YouTube tutorials, I began creating various coding projects."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">My work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects__filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Apps</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="ui">UI/UX</button>
+                </div>
+
+                <div class="projects__grid">
+                    <!-- Project 1 -->
+                    <div class="project-card reveal-element" data-category="App">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="assets/Jarvis.jpg" alt="Jarvis" class="lazy-load">
+                                </div>
+                                <div class="project-info">
+                                    <h3 class="project-title">Jarvis</h3>
+                                    <p class="project-category">App for desktop</p>
+                                </div>
+                                <div class="flip-hint">
+                                    <span>Click to flip</span>
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                            </div>
+
+                            <div class="card-back">
+                                <h3 class="project-title">Jarvis</h3>
+                                <p class="project-description">
+                                    A full functioning Jarvis with automation LLM and api integration ready to use for daily life tasks
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                    <span class="tech-tag">Stripe API</span>
+                                    <span class="tech-tag">Redux</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fas fa-globe"></i> Live Demo
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i> GitHub
+                                    </a>
+                                </div>
+                                <div class="flip-back">
+                                    <span>Flip back</span>
+                                    <i class="fas fa-undo"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card reveal-element" data-category="mobile">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="assets/images/projects/project2.jpg" alt="Fitness Tracking App" class="lazy-load">
+                                </div>
+                                <div class="project-info">
+                                    <h3 class="project-title">Fitness Tracking App</h3>
+                                    <p class="project-category">Mobile App</p>
+                                </div>
+                                <div class="flip-hint">
+                                    <span>Click to flip</span>
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                            </div>
+
+                            <div class="card-back">
+                                <h3 class="project-title">Fitness Tracking App</h3>
+                                <p class="project-description">
+                                    A cross-platform mobile application that allows users to track workouts, set goals, and monitor their fitness progress with interactive charts.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">React Native</span>
+                                    <span class="tech-tag">Firebase</span>
+                                    <span class="tech-tag">Redux</span>
+                                    <span class="tech-tag">D3.js</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fas fa-globe"></i> App Store
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i> GitHub
+                                    </a>
+                                </div>
+                                <div class="flip-back">
+                                    <span>Flip back</span>
+                                    <i class="fas fa-undo"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card reveal-element" data-category="web">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="assets/images/projects/project3.jpg" alt="Real Estate Platform" class="lazy-load">
+                                </div>
+                                <div class="project-info">
+                                    <h3 class="project-title">Real Estate Platform</h3>
+                                    <p class="project-category">Web Development</p>
+                                </div>
+                                <div class="flip-hint">
+                                    <span>Click to flip</span>
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                            </div>
+
+                            <div class="card-back">
+                                <h3 class="project-title">Real Estate Platform</h3>
+                                <p class="project-description">
+                                    A comprehensive real estate platform with property listings, advanced search, virtual tours, and agent profiles. Includes admin dashboard for management.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Vue.js</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">PostgreSQL</span>
+                                    <span class="tech-tag">Google Maps API</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fas fa-globe"></i> Live Demo
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i> GitHub
+                                    </a>
+                                </div>
+                                <div class="flip-back">
+                                    <span>Flip back</span>
+                                    <i class="fas fa-undo"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card reveal-element" data-category="ui">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="assets/images/projects/project4.jpg" alt="Banking Dashboard" class="lazy-load">
+                                </div>
+                                <div class="project-info">
+                                    <h3 class="project-title">Banking Dashboard</h3>
+                                    <p class="project-category">UI/UX Design</p>
+                                </div>
+                                <div class="flip-hint">
+                                    <span>Click to flip</span>
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                            </div>
+
+                            <div class="card-back">
+                                <h3 class="project-title">Banking Dashboard</h3>
+                                <p class="project-description">
+                                    A modern banking dashboard interface with account management, transaction history, budgeting tools, and interactive data visualizations.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Figma</span>
+                                    <span class="tech-tag">Adobe XD</span>
+                                    <span class="tech-tag">User Testing</span>
+                                    <span class="tech-tag">Prototyping</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fas fa-globe"></i> Case Study
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fab fa-behance"></i> Behance
+                                    </a>
+                                </div>
+                                <div class="flip-back">
+                                    <span>Flip back</span>
+                                    <i class="fas fa-undo"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card reveal-element" data-category="mobile">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="assets/images/projects/project5.jpg" alt="Food Delivery App" class="lazy-load">
+                                </div>
+                                <div class="project-info">
+                                    <h3 class="project-title">Food Delivery App</h3>
+                                    <p class="project-category">Mobile App</p>
+                                </div>
+                                <div class="flip-hint">
+                                    <span>Click to flip</span>
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                            </div>
+
+                            <div class="card-back">
+                                <h3 class="project-title">Food Delivery App</h3>
+                                <p class="project-description">
+                                    A food delivery application with real-time order tracking, restaurant discovery, reviews, and seamless payment integration.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Flutter</span>
+                                    <span class="tech-tag">Firebase</span>
+                                    <span class="tech-tag">Google Maps</span>
+                                    <span class="tech-tag">Stripe</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fas fa-globe"></i> App Store
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i> GitHub
+                                    </a>
+                                </div>
+                                <div class="flip-back">
+                                    <span>Flip back</span>
+                                    <i class="fas fa-undo"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card reveal-element" data-category="ui">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="assets/images/projects/project6.jpg" alt="Streaming Service UI" class="lazy-load">
+                                </div>
+                                <div class="project-info">
+                                    <h3 class="project-title">Streaming Service UI</h3>
+                                    <p class="project-category">UI/UX Design</p>
+                                </div>
+                                <div class="flip-hint">
+                                    <span>Click to flip</span>
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                            </div>
+
+                            <div class="card-back">
+                                <h3 class="project-title">Streaming Service UI</h3>
+                                <p class="project-description">
+                                    A complete UI redesign for a video streaming platform, focusing on content discovery, personalization, and an immersive viewing experience.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Figma</span>
+                                    <span class="tech-tag">User Research</span>
+                                    <span class="tech-tag">Interaction Design</span>
+                                    <span class="tech-tag">A/B Testing</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fas fa-globe"></i> Case Study
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fab fa-dribbble"></i> Dribbble
+                                    </a>
+                                </div>
+                                <div class="flip-back">
+                                    <span>Flip back</span>
+                                    <i class="fas fa-undo"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects__cta">
+                    <a href="#" class="btn btn-outline" target="_blank">
+                        View All Projects <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">What others say</span>
+                    <h2 class="section-title">Client Testimonials</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="testimonial-slider">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                John's expertise in full-stack development transformed our e-commerce platform. He not only delivered on time but also suggested improvements that increased our conversion rates by 35%. His attention to detail and problem-solving skills are exceptional.
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/client1.jpg" alt="Sarah Johnson" class="lazy-load">
+                                </div>
+                                <div class="author-info">
+                                    <h4 class="author-name">Sarah Johnson</h4>
+                                    <p class="author-position">CEO, TechRetail</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                Working with John was a game-changer for our startup. His technical knowledge combined with business understanding helped us create a robust platform that could scale with our rapid growth. He's collaborative, responsive, and delivers high-quality work consistently.
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/client2.jpg" alt="Michael Rodriguez" class="lazy-load">
+                                </div>
+                                <div class="author-info">
+                                    <h4 class="author-name">Michael Rodriguez</h4>
+                                    <p class="author-position">Founder, InnoStart</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                John exceeded our expectations with the mobile app he developed for us. His user-centered approach resulted in an intuitive interface that our customers love. The app has a 4.8-star rating and has significantly increased our user engagement metrics.
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/client3.jpg" alt="Emily Chen" class="lazy-load">
+                                </div>
+                                <div class="author-info">
+                                    <h4 class="author-name">Emily Chen</h4>
+                                    <p class="author-position">Product Manager, MobileFirst</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-dot active" data-slide="0"></button>
+                    <button class="slider-dot" data-slide="1"></button>
+                    <button class="slider-dot" data-slide="2"></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get in touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__info reveal-element">
+                        <h3 class="contact__heading">Let's work together</h3>
+                        <p class="contact__paragraph">
+                            I'm currently available for freelance work or full-time positions. If you have a project that needs some creative touch, need help with development, or just want to say hi, feel free to reach out!
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <a href="mailto:john@example.com">john@example.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Phone</h4>
+                                    <a href="tel:+1234567890">+1 (234) 567-890</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <p>San Francisco, CA, USA</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="LinkedIn" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="GitHub" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Dribbble" target="_blank">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact__form-wrapper reveal-element">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <div class="form-field">
+                                    <input type="text" id="name" name="name" class="form-control" placeholder=" " required>
+                                    <label for="name">Your Name</label>
+                                    <div class="form-field-icon">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-field">
+                                    <input type="email" id="email" name="email" class="form-control" placeholder=" " required>
+                                    <label for="email">Your Email</label>
+                                    <div class="form-field-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-field">
+                                    <input type="text" id="subject" name="subject" class="form-control" placeholder=" " required>
+                                    <label for="subject">Subject</label>
+                                    <div class="form-field-icon">
+                                        <i class="fas fa-align-left"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-field">
+                                    <textarea id="message" name="message" class="form-control" placeholder=" " rows="5" required></textarea>
+                                    <label for="message">Your Message</label>
+                                    <div class="form-field-icon">
+                                        <i class="fas fa-comment-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary">
+                                    <span>Send Message</span>
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+
+                        <div class="form-response" id="form-response">
+                            <div class="form-response-content">
+                                <div class="response-icon success">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <h3 class="response-title">Message Sent!</h3>
+                                <p class="response-message">Thank you for your message. I'll get back to you as soon as possible.</p>
+                                <button class="btn btn-outline close-response">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-map">
+                <div id="map" class="google-map"></div>
+                <div class="map-overlay"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <a href="#home" class="logo-link">John<span>Doe</span></a>
+                </div>
+
+                <div class="footer__links">
+                    <div class="footer-nav">
+                        <h4 class="footer-title">Navigation</h4>
+                        <ul class="footer-menu">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-social">
+                        <h4 class="footer-title">Connect</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="LinkedIn" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="GitHub" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Dribbble" target="_blank">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__newsletter">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p>Subscribe to my newsletter for tech insights and updates on my latest projects.</p>
+                    <form class="newsletter-form">
+                        <div class="form-field">
+                            <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Your email address" required>
+                            <button type="submit" class="newsletter-btn">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="copyright">
+                    <p>&copy; <span id="current-year"></span> John Doe. All rights reserved.</p>
+                </div>
+
+                <div class="back-to-top">
+                    <a href="#home" class="back-to-top-link">
+                        <span>Back to top</span>
+                        <i class="fas fa-arrow-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/flip-cards.js"></script>
+    <script src="js/form-validation.js"></script>
+    <script src="js/dark-mode.js"></script>
+</body>
+</html>
